@@ -1,0 +1,8 @@
+
+My Set-ups:
+
+POST /api/registration
+Content type: application/json
+Accept: application/json
+
+all will produce json BUT will not always consume json

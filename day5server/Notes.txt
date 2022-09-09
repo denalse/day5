@@ -1,0 +1,22 @@
+
+
+    myApp
+      |
+      |__ src
+      |
+      |__ pom.xml
+      |
+      |__ system.properties
+
+____________________________________________________________________
+
+> this is called a mono repository..
+
+ day5 (find the root repository and initialized the heroku)
+  |
+  |__day5.client
+  |
+  |__ server
+        |
+        |__pom.xml
+        |__springboot

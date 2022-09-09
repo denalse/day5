@@ -1,0 +1,32 @@
+<div>
+
+    <form [formGroup] = "form" (ngSubmit) = "processForm()">
+      
+      <table class = container>
+        <tr>
+            <td>Name: </td>
+            <td>
+                <input type="text" size="30" formControlName="name"
+                placeholder="Your name">
+            </td>
+        </tr>
+        <tr>
+          <td>Email: </td>
+          <td>
+                <input type="email" size="30" formControlName="email"
+                placeholder="Your email">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type = "submit" [disabled] = "form.invalid">
+                Register
+            </button>
+          </td>
+        </tr>
+      </table>
+  
+    </form>
+    
+  
+  </div>
