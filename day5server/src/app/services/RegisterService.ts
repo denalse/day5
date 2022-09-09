@@ -3,7 +3,7 @@ import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Register } from "../models";
 import { lastValueFrom } from "rxjs";
 
-const URL = 'http://localhost:8080/api/registration'
+const URL = 'https://whispering-refuge-41613.herokuapp.com/api/registration'
 
 @Injectable()
 export class RegisterService {
